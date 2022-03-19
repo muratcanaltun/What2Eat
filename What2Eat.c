@@ -1,3 +1,20 @@
+/*
+    This program is free software: you can redistribute it and/or modify 
+    it under the terms of the GNU General Public License as published by 
+    the Free Software Foundation, either version 3 of the License, 
+    or (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful, 
+    but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+    or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. 
+    If not, see <https://www.gnu.org/licenses/>.
+
+    For any future references, you can also find this program at
+    <https://github.com/muratcanaltun/What2Eat>.
+*/
+
 #include <stdio.h>
 
 int kebabShort = 0;
@@ -87,6 +104,7 @@ int main()
         int dummyVar = -1;
     } else if (pass == 0) {
         printf("You are eating at home today!\n");
+        return 0;
     }
 
     kebab = 0;
