@@ -99,11 +99,9 @@ int main()
     pass = passesThreshold(pasta, "Pasta", pass, 3);
     pass = passesThreshold(lahmacun, "Lahmacun", pass, 4);
     pass = passesThreshold(salad, "Salad", pass, 5);
-
-    if (pass > 0) {
-        int dummyVar = -1;
-    } else if (pass == 0) {
-        printf("You are eating at home today!\n");
+	
+	if (pass == 0) {
+		printf("You are eating at home today!\n");
         return 0;
     }
 
